@@ -16,6 +16,22 @@ Chaque ligne représente un échantillon de vin rouge avec 11 caractéristiques 
 - Affichage des **courbes d’apprentissage (perte & précision)**
 - Prédiction sur une nouvelle donnée
 
+## ▶️ Lancer le projet
+
+1. Cloner le dépôt ou télécharger les fichiers nécessaires
+2. Placer le fichier `winequality-red.csv` dans le même répertoire que le script
+3. Installer les bibliothèques requises :
+
+```bash
+pip install pandas numpy scikit-learn matplotlib tensorflow
+```
+
+4. Lancer le script :
+
+```bash
+python fichier_code.py
+```
+
 ## 📊 Résultats
 
 - **Précision sur l'ensemble de test** : généralement entre **60% et 70%**, selon l'architecture du réseau et les hyperparamètres.
