@@ -29,7 +29,7 @@ pip install pandas numpy scikit-learn matplotlib tensorflow
 4. Lancer le script :
 
 ```bash
-python fichier_code.py
+python wine_quality_classification.py
 ```
 
 ## 📊 Résultats
